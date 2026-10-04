@@ -1,0 +1,35 @@
+package com.kodewala.array;
+
+public class User {
+	String name;
+	String mobile;
+
+	public User(String name, String mobile) {
+		super();
+		this.name = name;
+		this.mobile = mobile;
+	}
+
+
+
+	public static void main(String[] args)
+	{
+		User user1 = new User("Kodewala", "7873875835");
+		User user2 = new User("Rohit", "887663472824");
+		User user3 = new User("Vishal", "77827346828");
+		User user4 = new User("Rupali", "9927482742873");
+		
+		User users[] = new User[4]; // // creating Array
+		
+		users[0] = user1;
+		users[1] = user2;
+		users[2] = user3;
+		users[3] = user4;
+		
+	for(int i = 0; i<users.length; i++) {
+		System.out.println(users[i].name + " , " + users[i].mobile);
+	}
+		
+	}
+
+}
