@@ -1,0 +1,27 @@
+package com.kodewala.loop2;
+
+public class Forloop {
+
+	public static void main(String[] args) {
+
+		String[] cities = { "Mumbai", "Delhi", "Bengaluru", "Chennai", "Kolkata", "Bengaluru", "Pune", "Ahmedabad",
+				"Jaipur", "Lucknow", "Bhopal", "Bengaluru", "Surat", "Bengaluru", "Nagpur", "Kochi", "Chandigarh", "Varanasi",
+				"Mysuru", "Thiruvananthapuram"};
+		
+		// find if Banglore is part of the list or not
+		
+		for(int index = 0; index < cities.length; index++) {
+			String currentCity = cities[index];
+			if(currentCity.equals("Bnaglore"))
+			{
+				System.out.println("Bnaglore is the part of city list");
+				break;
+				//break the loop ---> you will come out of the loop
+			}
+		}
+		
+		
+
+	}
+
+}

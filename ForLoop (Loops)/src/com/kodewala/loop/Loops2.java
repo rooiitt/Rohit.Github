@@ -1,0 +1,15 @@
+package com.kodewala.loop;
+
+public class Loops2 {
+	public static void main(String[] args) {
+		{
+			for(int i=0; i < 17; i++ ) {
+			
+			System.out.println("The number is " + i );
+			
+			}
+		}
+		
+	}
+}
+
