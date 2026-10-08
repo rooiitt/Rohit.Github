@@ -1,0 +1,31 @@
+package com.kodewala.control.flow1;
+
+public class MyntraDiscount {
+	public String myntraCoupen (String search, String cloths , int discount ) {
+		String coupen = null;
+		if (discount < 1000)
+		{
+			coupen = "You will get 10% off";
+			System.out.println(coupen);
+		}
+		else if (discount < 5000)
+		{
+			coupen = "You will get staright 50% off";
+			System.out.println(coupen);
+		}
+		else if (discount < 10000)
+		{
+			coupen = "You will get staright 50% off with Myntra plus free";
+			System.out.println(coupen);
+		}
+		else
+		{
+			coupen = "Strat shopping to get disscount";
+			System.out.println(coupen);
+		}
+		return coupen;
+	}
+		 
+	}
+
+
