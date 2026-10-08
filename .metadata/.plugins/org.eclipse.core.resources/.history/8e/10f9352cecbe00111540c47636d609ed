@@ -1,0 +1,17 @@
+package com.kodewala.scanner;
+
+import java.util.Scanner;
+
+public class Scaner2 {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in); // Creating connectin with Console
+		
+		System.out.println("please enter your name..");
+		String 
+		
+
+	}
+
+}

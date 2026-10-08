@@ -1,0 +1,14 @@
+package com.kodewala.costructor;
+
+public class Driver {
+	public static void main(String[] args) {
+		
+		AccountHolder user1 = new AccountHolder(122, "739836727647", "Rohit", "64764648738");
+		AccountHolder user2 = new AccountHolder(5464, "675478364", "Manasvi", "89567486767");
+		
+
+	}
+
+}
+
+   

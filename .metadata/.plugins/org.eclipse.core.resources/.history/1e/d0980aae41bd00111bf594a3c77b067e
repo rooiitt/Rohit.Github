@@ -1,0 +1,20 @@
+package com.kodewala.loop1;
+
+public class SbiAccount {
+	public static void main(String[] args) {
+		
+	}
+	String coustomerName;
+	String coustomerBalance;
+	String mobileNumber;
+	
+	SbiAccount(String coustomerName,String coustomerBalance , String mobileNumber )
+	{   
+		super();
+		this.coustomerName = coustomerName;
+		this.coustomerBalance = coustomerBalance;
+		this.mobileNumber = mobileNumber;
+	}
+	
+
+}

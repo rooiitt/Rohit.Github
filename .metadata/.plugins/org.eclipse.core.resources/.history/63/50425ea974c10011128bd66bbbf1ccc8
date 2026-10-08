@@ -1,0 +1,11 @@
+package com.kodewala.switch1;
+
+public class Ecommerce {
+
+	public static void main(String[] args) {
+		Ecommerce em = new Ecomerce();
+		
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.kodewala.scanner;
+
+public class Scaner2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

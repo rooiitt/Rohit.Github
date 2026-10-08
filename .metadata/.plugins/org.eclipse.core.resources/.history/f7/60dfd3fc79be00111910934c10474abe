@@ -1,0 +1,10 @@
+package com.kodewala.control.flow1;
+
+public class MyntraDiscount {
+	public String  coupen(String search, String cloth , int discount ) {
+		String suggestion = null;
+	}
+		 
+	}
+
+

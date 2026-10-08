@@ -1,0 +1,5 @@
+package com.kodewala.string2;
+
+public @interface Concept4 {
+
+}

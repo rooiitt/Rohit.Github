@@ -1,0 +1,35 @@
+package com.stringspractice;
+
+class User
+{
+	String firstname;
+
+	public User(String firstname) {
+		super();
+		this.firstname = firstname;
+	} 
+	
+}
+
+public class Concept1 {
+
+	public static void main(String[] args) 
+	{
+		String city1 = "Banglore"; // one Object is created ---> abc123
+		String city2 = "Banglore"; // one Object is created ---> abc123
+		String city3 = "Banglore"; // one Object is created ---> abc123
+		
+		System.out.println(city1 == city2);
+		
+		System.out.println(city1.equals(city2));
+		
+		User user1 = new User("Kodewala");
+		User user2 = new User("Kodewala");
+		
+		System.out.println(user1.equals(user2));
+		
+		
+
+	}
+
+}

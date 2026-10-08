@@ -1,0 +1,33 @@
+package com.kodewala.loop2;
+
+import java.util.Scanner;
+
+public class BabaGame {
+	public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+		
+		int luckyNumber = 13;
+		int userEnterd = 0;
+		
+		while(luckyNumber != userEnterd)
+		{
+			System.out.println("Please enter your number...");
+			userEnterd = sc.nextInt();
+			
+			if (userEnterd == luckyNumber )
+			{
+				System.out.println("You won!!!");
+			}
+			else
+			{
+				System.err.println("Please try again...");
+			}
+		}
+		sc.close();
+		
+	
+		 
+	}
+	}
+
+}

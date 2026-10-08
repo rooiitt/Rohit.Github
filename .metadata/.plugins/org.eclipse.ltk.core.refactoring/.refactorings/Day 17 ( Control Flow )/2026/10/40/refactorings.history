@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.kodewala.control.flow1.Driver1&apos; to &apos;MakeMyDriver&apos;&#x0D;&#x0A;- Original project: &apos;Day 17 ( Control Flow )&apos;&#x0D;&#x0A;- Original element: &apos;com.kodewala.control.flow1.Driver1&apos;&#x0D;&#x0A;- Renamed element: &apos;com.kodewala.control.flow1.MakeMyDriver&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Driver1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.kodewala.control.flow1{Driver1.java[Driver1" matchStrategy="1" name="MakeMyDriver" qualified="false" references="true" similarDeclarations="false" stamp="1790955720058" textual="false" version="1.0"/>
+</session>

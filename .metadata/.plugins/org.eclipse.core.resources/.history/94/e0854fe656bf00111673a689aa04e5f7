@@ -1,0 +1,13 @@
+package com.kodewala.loop;
+
+public class Loops3 {
+	public static void main(String[] args) {
+		{
+			for(int index = 0; index < 20; index ++ )
+			{
+				System.out.println(index);
+			}
+		}
+	}
+
+}
