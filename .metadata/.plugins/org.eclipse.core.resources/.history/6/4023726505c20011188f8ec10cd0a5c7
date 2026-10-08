@@ -1,0 +1,24 @@
+package com.stringspractice;
+
+public class Concept1 {
+
+	public static void main(String[] args) 
+	{
+		String city1 = "Banglore";
+		String city2 = "Banglore";
+		String city3 = "Banglore";
+		
+		//System.out.println(city1 == city2);
+		
+		System.out.println(city1.equals(city2));
+		
+		User user1 = new User("Kosewala");
+		User user2 = new User("Kosewala");
+		
+		System.out.println(user1.equals(user2));
+		
+		
+
+	}
+
+}

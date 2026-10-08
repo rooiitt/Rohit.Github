@@ -1,0 +1,28 @@
+package com.kodewala.loop1;
+
+public class SbiDriver {
+	public static void main(String args[]) {
+		
+		SbiAccount sbiAccount= new SbiAccount("Rohit" , 15000 , "872648272942");
+		SbiAccount sbiAccount1= new SbiAccount("Vishal" , 45000 , "88765680987");
+		SbiAccount sbiAccount2= new SbiAccount("Rupali" , 457 , "667809854678");
+		SbiAccount sbiAccount3= new SbiAccount("Vaishali" , 7800 , "5567809846");
+		
+		SbiAccount[] account = new SbiAccount[4];
+		
+		account[0] = sbiAccount;
+		account[1] = sbiAccount1;
+		account[2] = sbiAccount2;
+		account[3] = sbiAccount3;
+		
+		for(int i = 0; i<account.length; i++) {
+			if (account[i].coustomerBalance < 2000) 
+			{
+				System.out.println("Customer with less than 2000:" + account[i].coustomerBalance);
+				
+			}
+		}
+		
+		
+	}
+}

@@ -1,0 +1,8 @@
+package com.kodewala.control.flow1;
+
+public class MyntraDiscount {
+	public static void main(String[] args) {
+		
+	}
+
+}

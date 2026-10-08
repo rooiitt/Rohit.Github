@@ -1,0 +1,10 @@
+package com.kodewala.loop2;
+
+public class Dowhile3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

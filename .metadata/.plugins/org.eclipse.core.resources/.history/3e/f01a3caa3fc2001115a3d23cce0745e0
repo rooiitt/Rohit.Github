@@ -1,0 +1,16 @@
+package com.stringspractice;
+
+public class Concept {
+	public static void main(String[] args)
+	{
+		// Created the object
+		String s1 = "Kodewala"; //Object created in SCP ---> address ---> xyz321
+		String s2 = "Kodewala";// Object with content "Kodewala" alredy created
+		                       // and lasteName will refer to exsting object.
+		                       // lastName is also pointing to adress xyz321
+		
+		System.out.println( s1 == s2); // == will copare the address of an object
+		
+	}
+
+}

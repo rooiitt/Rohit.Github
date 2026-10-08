@@ -1,0 +1,5 @@
+package com.kodewala.string1;
+
+public record User() {
+
+}

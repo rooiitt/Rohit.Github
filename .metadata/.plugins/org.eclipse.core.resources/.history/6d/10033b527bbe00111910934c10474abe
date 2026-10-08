@@ -1,0 +1,11 @@
+package com.kodewala.control.flow1;
+
+public class MyntraDriver {
+
+	public static void main(String[] args) {
+		MyntraDiscount off = new MyntraDiscount();
+		System.out.println();
+
+	}
+
+}
