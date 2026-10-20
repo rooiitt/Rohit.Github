@@ -8,7 +8,6 @@ public class HelloWorld {
 		int ammount = 120;		
 		System.out.println("Ammount :" + ammount);
 		HelloWorld.doSomethings();
-		Scanner sc = new Scanner(System.in);
 
 	}
 

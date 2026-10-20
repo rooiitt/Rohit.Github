@@ -2,7 +2,7 @@ package com.kodwala.construstors;
 
 class Invoice extends Object{
 	
-	static String company;
+	String company;
 	static int gst = 16;
 	String deviceName;
     String address;

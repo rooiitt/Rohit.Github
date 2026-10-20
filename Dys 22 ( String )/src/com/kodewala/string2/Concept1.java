@@ -5,7 +5,7 @@ public class Concept1 {
 		
 		String s1 = "Kodewala"; // SCP incase we want to to change 
 		
-		String s2 = s1.concat(" Acadamy"); // trying to create the onject
+		String s2 = s1.concat(" Acadamy"); // trying to create the Object 
 		                                   // object created in heap with content Kodewala Academy
 		
 		System.out.println(s2);

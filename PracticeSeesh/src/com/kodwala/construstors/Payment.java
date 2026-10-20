@@ -8,7 +8,7 @@ class Transaction extends Object {
 	static boolean paid = false; //Static Variable
 	
 	//Parameterize Constructor
-	Transaction(int ammount ,String paymentMethod , String transictionId ){ 
+	Transaction(int ammount ,String paymentMethod , String transictionId, boolean paid ){ 
 		
 		this.ammount = ammount;
 		this.paymentMethod = paymentMethod; // Initialize Instance Variable
@@ -26,11 +26,11 @@ public class Payment {
 	public static void main(String[] args) {
 		
 		// Creating first Object
-		Transaction obj = new Transaction (500 , "UPI" , "Txn12345");
+		Transaction obj = new Transaction (500 , "UPI" , "Txn12345", false);
 		System.out.println(obj.ammount +" , "+ obj.paymentMethod+" , "+ obj.transictionId +" , "+obj.paid);
 		
 		//Creating Sec Object
-		Transaction obj1 = new Transaction (500 , "UPI" , "Txn12345");
+		Transaction obj1 = new Transaction (500 , "UPI" , "Txn12345", false);
 		System.out.println(obj1.ammount +" , "+ obj1.paymentMethod+" , "+ obj1.transictionId+" , "+obj1.paid);
 		
 

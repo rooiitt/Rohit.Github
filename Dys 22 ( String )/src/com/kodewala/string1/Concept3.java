@@ -1,23 +1,31 @@
 package com.kodewala.string1;
 
 public class Concept3 {
-
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
+		//Litrals 
+		String s1 = "Kodewala"; //SCP
 		
-		String s1 = "Kodewala";
+		String s2 = "Kodewala"; //SCP
 		
-		String s2 = new String("Academy"); // one object in scp + one object in heap.
+		// new Keyword
+		String s3 = new String ("Kodewala"); // stored in scp "" used + in heap with new object
 		
-		//System.out.println(s1 == s2);
+		String s4 = new String ("Kodewala"); // new keywords creates new object inside heap
 		
-		String s3 = new String ("Concept"); // new keyword create new result object in  time inside the heap
-		String s4 = new String ("Concept");
+		//Comparing the memory address
+		System.out.println("s1 == s2 : " + (s1 == s2));
+		System.out.println("s3 == s4 : " + (s3 == s4));
+		System.out.println("s1 == s3 : " + (s1 == s3));
 		
-		System.out.println(s3 == s4);
 		
-		System.out.println(s4.equals(s3));
 		
-
+		//Comparing Meaningfully equal or not 
+		System.out.println("s1.equals (s2) : " + s1.equals (s2)); // True equal checks Content are same or NOT
+		System.out.println("s3.equals (s4) : " + s3.equals (s4));
+		System.out.println("s4.equals (s3) : " + s4.equals(s3));
+		
+		
 	}
 
 }
