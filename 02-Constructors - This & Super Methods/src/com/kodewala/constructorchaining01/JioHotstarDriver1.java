@@ -2,7 +2,7 @@ package com.kodewala.constructorchaining01;
 
 // END user mobile screen
 
-class Driver1 {
+class JioHotstarDriver1 {
 
 	public static void main(String[] args) {
 	

@@ -1,10 +1,13 @@
 package com.kodewala.constructorchaining01;
+/**
+ * calling the super()
+ */
 
 public class ElectronicProduct extends Product { 
 	
 	int warranty;
 
-	public ElectronicProduct(String name, String price, String productID) {
+	public ElectronicProduct(String name, String price, String productID , int warranty) {
 		
 		super (name, price, productID);
 		this.warranty = warranty; 

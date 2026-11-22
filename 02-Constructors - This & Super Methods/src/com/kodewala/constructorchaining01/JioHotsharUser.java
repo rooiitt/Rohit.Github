@@ -1,5 +1,7 @@
 package com.kodewala.constructorchaining01;
-
+/**
+ * This class represnted the JioHotsharUser user
+ */
 public class JioHotsharUser {
 	
 	String email;
@@ -15,7 +17,7 @@ public class JioHotsharUser {
 		
 	}
 	public JioHotsharUser(int value)
-	{   // system is setting ? init default value 
+	{   // system is setting / init default value 
 		this ("rohit.wyd@gmail.com" , "8890764432" , "5566");
 	}// calling the constructor 
 		
